@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0  ;
+}
+
+.up-header{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.logo-up-header{
+    width: 100px;
+    margin-left: 60px;
+}
+
+.kanan-up-header {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 70px;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.negara-header{
+    margin-left: 500px;
+}
+
+.up-header .kanan-up-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.up-header .kanan-up-header ul li a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.up-header>.kanan-up-header>ul>li {
+    float: left;
+}
+
+.up-header .kanan-up-header li a:hover {
+    background-color: #5656c2;
+}
+
+.up-header .kanan-up-header li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.up-header .kanan-up-header a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.menu-header {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+}
+
+.bar {
+    width: 100%;
+    height: 70px;
+    margin-left: 70px;
+    color: #fff;
+    align-items: center;
+}
+
+nav .menu-header .bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+nav .menu-header .bar ul li a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav>.menu-header>.bar>ul>li {
+    float: left;
+}
+
+nav li a:hover {
+    background-color: #5656c2;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.harga-terakhir{
+    width: 80%;
+    margin: 0;
+}
+
+.judul-harga-terakhir{
+    margin-left: 100px;
+    border-bottom: solid 1px blue;
+}
+
+.judul-harga-terakhir h3 span{
+    margin-left: 100px;
+}
+
+.title-harga>span{
+    float: right;
+}
+
+.gambar{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url('https://jfx.co.id//storage/settings/September2020/Fm57a90xl7DrqkyJYHdA.jpg');
+}
+
+.isi-gambar{
+    padding: 120px;
+    color: #fff;
+}
+
